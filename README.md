@@ -6,7 +6,7 @@ A simple library for creating gradient-filled texts.
 
 # How to use ?
 
-` npm i lineargradienttext `
+` npm i linear-gradient-text `
 
 Then...
 
