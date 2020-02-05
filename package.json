@@ -1,6 +1,6 @@
 {
   "name": "linear-gradient-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library for creating gradient-filled texts.",
   "main": "index.js",
   "scripts": {

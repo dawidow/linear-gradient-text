@@ -18,8 +18,6 @@ function gradientText(options) {
 		options.type = 'linear';
 	}
 
-	console.log(options);
-
 	items.forEach(item => {
 		item.style.setProperty('background-image', `linear-gradient(to ${options.direction}, ${options.primaryColor} 0%, ${options.secondaryColor} 100%`);
 		item.style.setProperty('-webkit-background-clip', 'text');
