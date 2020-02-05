@@ -36,7 +36,7 @@ lineargradienttext supports 4 options, each of which is optional.
 * *secondaryColor* - '#color' (Defaults to #000 (black))
 * *direction* - 'top' | 'right' | 'bottom' | 'left' (Defaults to bottom)*
 
-* - *Read the important section*
+\* - *Read the important section*
 
 # IMPORTANT!
 
