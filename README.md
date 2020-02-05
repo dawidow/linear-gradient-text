@@ -1,3 +1,5 @@
+You can find the library on [npmjs](https://www.npmjs.com/package/linear-gradient-text)
+
 # What is that ?
 
 A simple library for creating gradient-filled texts.
