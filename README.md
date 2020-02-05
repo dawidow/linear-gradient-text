@@ -22,7 +22,7 @@ import { gradientText } from 'linear-gradient-text';
 gradientText({
 	primaryColor: '#323',
 	secondaryColor: '#e2e',
-	direction: 'right',
+	direction: 'bottom',
 })
 ```
 
