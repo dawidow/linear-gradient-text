@@ -17,7 +17,7 @@ class="gradient-text"
 
 In javascript
 ```
-import { gradientText } from 'gradienttextlib';
+import { gradientText } from 'linear-gradient-text';
 
 gradientText({
 	primaryColor: '#323',
@@ -35,3 +35,9 @@ gradienttextlib supports 4 options, each of which is optional.
 * *primaryColor* - '#color' (Defaults to #fff (white))
 * *secondaryColor* - '#color' (Defaults to #000 (black))
 * *direction* - 'top' | 'right' | 'bottom' | 'left' (Defaults to bottom)
+
+# IMPORTANT!
+
+When using a single word that has display by default: block. The gradient works but fills all available space. It is then recommended to use display: inline.
+
+This problem only affects left and right directions.
