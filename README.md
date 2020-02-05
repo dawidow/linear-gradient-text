@@ -10,12 +10,12 @@ A simple library for creating gradient-filled texts.
 
 Then...
 
-In html
+In html just add a simple class...
 ```
 class="gradient-text"
 ```
 
-In javascript
+...and configure it in javascript
 ```
 import { gradientText } from 'linear-gradient-text';
 
