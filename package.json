@@ -1,6 +1,6 @@
 {
   "name": "linear-gradient-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple library for creating gradient-filled texts.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "url": "git+https://github.com/dawidow/linear-gradient-text.git"
   },
   "keywords": [
-    "linear-gradient"
+	"linear-gradient",
+	"linear",
+	"gradient",
+	"text"
   ],
   "author": "Dawid Owczarz",
   "license": "ISC",
