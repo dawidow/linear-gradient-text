@@ -3,11 +3,11 @@ function gradientText(options) {
 	let items = document.querySelectorAll('.gradient-text');
 
 	if(options.primaryColor === undefined) {
-		options.primaryColor = '#e21';
+		options.primaryColor = '#fff';
 	}
 
 	if(options.secondaryColor === undefined) {
-		options.secondaryColor = '#e12';
+		options.secondaryColor = '#000';
 	}
 
 	if(options.direction === undefined) {
