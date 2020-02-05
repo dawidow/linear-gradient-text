@@ -1,0 +1,31 @@
+function gradientText(options) {
+
+	let items = document.querySelectorAll('.gradient-text');
+
+	if(options.primaryColor === undefined) {
+		options.primaryColor = '#e21';
+	}
+
+	if(options.secondaryColor === undefined) {
+		options.secondaryColor = '#e12';
+	}
+
+	if(options.direction === undefined) {
+		options.direction = 'bottom';
+	}
+
+	if(options.type === undefined) {
+		options.type = 'linear';
+	}
+
+	console.log(options);
+
+	items.forEach(item => {
+		item.style.setProperty('background-image', `linear-gradient(to ${options.direction}, ${options.primaryColor} 0%, ${options.secondaryColor} 100%`);
+		item.style.setProperty('-webkit-background-clip', 'text');
+		item.style.setProperty('color', 'transparent');
+	});
+
+}
+
+module.exports.gradientText = gradientText;
