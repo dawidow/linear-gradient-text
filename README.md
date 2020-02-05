@@ -7,9 +7,10 @@ A simple library for creating gradient-filled texts.
 ` npm i lineargradienttext `
 
 Then...
+
 In html
 ```
-	class="gradient-text"
+class="gradient-text"
 ```
 
 In javascript
