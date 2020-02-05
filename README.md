@@ -30,11 +30,13 @@ Of course, please specify your own properties as a value.
 
 # Options
 
-gradienttextlib supports 4 options, each of which is optional.
+lineargradienttext supports 4 options, each of which is optional.
 
 * *primaryColor* - '#color' (Defaults to #fff (white))
 * *secondaryColor* - '#color' (Defaults to #000 (black))
-* *direction* - 'top' | 'right' | 'bottom' | 'left' (Defaults to bottom)
+* *direction* - 'top' | 'right' | 'bottom' | 'left' (Defaults to bottom)*
+
+* - *Read the important section*
 
 # IMPORTANT!
 
